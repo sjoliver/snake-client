@@ -14,6 +14,14 @@ const connect = function () {
     console.log(data);
   });
 
+  conn.on("connect", () => {
+    console.log("Connected as fuck");
+  });
+
+  conn.on("connect", () => {
+    conn.write("Name: SJO");
+  });
+
   return conn;
 };
 
