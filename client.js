@@ -17,7 +17,7 @@ const connect = function () {
   // logs connection message when connection is established
   // sends message to server when connection is established
   conn.on("connect", () => {
-    console.log("Connected as fuck");
+    console.log("Connected af");
     conn.write("Name: SJO");
     // setTimeout(() => {conn.write("Move: up");}, 1000);
   });
